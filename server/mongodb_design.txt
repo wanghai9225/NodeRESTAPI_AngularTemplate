@@ -1,0 +1,13 @@
+Document Management Distribution System (AIS) DB Design
+
+collections: Accounts, Portal, Form, Document, Roles, Report
+
+1. Accounts
+2. Portal
+3. Document
+	fields
+	- _id
+	- category
+	- name(or path)
+	- form_id	"reference to form collection"
+4. Form
